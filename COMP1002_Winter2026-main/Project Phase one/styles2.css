@@ -1,0 +1,106 @@
+body {
+    background-color: red;
+}
+
+
+/* Profile Image */
+img[src*="2025_08_FEC_4x5_MonsterHunter_Hunter_01.jpg"] {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Element Selector */
+h1, h2 {
+    text-align: center;
+}
+
+/* Class Selector */
+.nav-list {
+    list-style-type: none;
+    display: flex;            
+    justify-content: center;
+    gap: 20px;        /* fixed typo */
+    padding: 0;
+}
+
+/* ID Selector */
+#about {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    color: red;
+}
+
+/* Button Styling */
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+/* Box Model Example */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Image Styling (General Images) */
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+
+/* =========================================
+REFLECTION
+
+What went well:
+I was able to correctly structure my HTML using
+semantic elements like header, nav, section, and footer.
+I used proper nesting and added HTML5 form validation.
+I also applied multiple CSS selectors including element,
+class, ID, attribute, and pseudo-class selectors.
+
+Challenges:
+Spacing and understanding how the box model affects
+layout was challenging. I also had to think carefully
+about which selector type to use.
+
+For Phase Two:
+I would like to improve the layout using more Flexbox,
+add better typography, improve colours, and make the
+site responsive using media queries.
+
+========================================= */
